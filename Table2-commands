@@ -1,0 +1,18 @@
+Table 2:
+
+1. create table teachers (id_no int AUTO_INCREMENT PRIMARY KEY,name varchar(60) NO
+T NULL DEFAULT 'UNKNOWN USER',Address varchar(100) NULL,Age int NOT NULL DEFAULT 0);
+2.insert into teachers(name,Address,Age) values ('Priety Goel','Shimla Road, Hima
+chal Pradesh',35);
+insert into teachers(name,Address,Age) values ('Sunil Kumar Verma','LodhiRoad,
+New Delhi',28);
+insert into teachers(name,Address,Age) values ('Priyanka','Tonk,Rajasthan',31);
+insert into teachers(name) values ('Anshika Kapoor');
+insert into teachers(Address,Age) values ('Dwarka, Delhi',25);
+insert into teachers(Address,Age) values ('Tonk,Rajasthan',38);
+insert into teachers(name,Age) values ('Sakshi',28);
+insert into teachers(name,Age) values ('Sangam Jha',31);
+3.select * from teachers;
+4.drop table students_data;
+drop table teachers;
+drop database hw_student;
