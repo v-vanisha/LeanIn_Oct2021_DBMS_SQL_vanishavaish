@@ -1,0 +1,19 @@
+TABLE 1:
+
+1. create database hw_student;
+2. create table students_data (roll_no int NOT NULL PRIMARY KEY AUTO_INCREMENT, 		first_name varchar(30) DEFAULT 'Unknown',last_name varchar(30) NULL,class_rank int 		NOT NULL);
+3.describe students_data;
+4.
+insert into students_data (first_name,class_rank) values ('Samiksha',1);
+insert into students_data (first_name,class_rank) values ('Poornima',6);
+insert into students_data (first_name,class_rank) values ('Kavya',25);
+insert into students_data (class_rank) values (2);
+insert into students_data (class_rank) values (15);
+insert into students_data (first_name,last_name,class_rank) values ('Harshita','Mehra',4);
+insert into students_data (first_name,last_name,class_rank) values ('Avni','Chaturvedi',5);
+insert into students_data (first_name,last_name,class_rank) values ('Nidhi','Kumari',8);
+insert into students_data (first_name,last_name,class_rank) values ('Pawan','Kumar',10);
+
+5. select * from students_data;
+6. select roll_no,first_name,class_rank from students_data;
+alte
