@@ -1,0 +1,21 @@
+ Table 3
+ 
+ 1.create database pastry_shop;
+ 2.create table menu (s_no int NOT NULL AUTO_INCREMENT PRIMARY KEY,pastry_name var
+char(30) NOT NULL DEFAULT 'UNAVAILABLE',price int NOT NULL DEFAULT '9999');
+3.insert into menu (pastry_name,price) values ('Vanilla pastry',70);
+insert into menu (pastry_name,price) values ('Butter cookie pastry',78);
+insert into menu (pastry_name,price) values ('Chocolate pastry',88);
+insert into menu (pastry_name,price) values ('Cream & nut pastry',99);
+insert into menu (pastry_name,price) values ('Light vegan pastry',99);
+insert into menu (pastry_name,price) values ('Red velvet pastry',89);
+insert into menu (s_no,pastry_name,price) values (100,'Fruit & nut pastry',88);
+insert into menu (s_no,pastry_name,price) values (150,'Mixed fruit pastry ',85);
+insert into menu (s_no,pastry_name,price) values (9,'Honey cream pastry',76);
+insert into menu (pastry_name,price) values ('Dark forest pastry',89);
+insert into menu (pastry_name,price) values ('mango pastry',75);
+insert into menu (price) values (88);
+insert into menu (price) values (90);
+insert into menu (price) values (76);
+insert into menu (pastry_name) values ('Strawberry pastry');
+insert into menu (pastry_name) values ('Ice cream and pastry combo');
